@@ -1,12 +1,12 @@
 .sideBar {
     height: 100vh;
-    color: white;
+    color: var(--text);
     font-family: var(--font);
     flex: 1;
     background-color: var(--primary);
-
+    border-right: 2px solid var(--opcolor) ;
     & .logo {
-        
+        border-bottom: 2px solid var(--opcolor);
         box-sizing: border-box;
         font-size: 24px;
         height: 100px;
@@ -26,7 +26,7 @@
 
     & .classification {
        padding: 20px 0 0;
-        border-top: 2px solid var(--opcolor);
+        
         & .topics:first-child {
             & .topicHead {
                 border-top: none;
@@ -61,12 +61,13 @@
                 
 
                 & a {
+
                     display: flex;
                     gap: 10px;
                     align-items: center;
                     padding: 10px 20px;
                     text-decoration: none;
-                    color: var(--text);
+                    color: var(--textz);
                 }
             }
 

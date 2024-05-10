@@ -2,8 +2,8 @@ import React from 'react'
 import './Navbar.css'
 import { CiSearch } from "react-icons/ci";
 import { TbWorld } from "react-icons/tb";
-import { IoIosNotificationsOutline } from "react-icons/io";
-import { FiMessageSquare } from "react-icons/fi";
+import { RiNotification2Line } from "react-icons/ri";
+import { BiMessageSquare } from "react-icons/bi";
 import { IoIosMore } from "react-icons/io";
 function Navbar() {
     return (
@@ -29,18 +29,20 @@ function Navbar() {
                             <ul>
                                 <li className='item thememode' >
                                     <label class="switch">
-                                        <input type="checkbox" />
+                                        <input  type="checkbox" />
                                         <span class="slider"></span>
                                     </label>
                                 </li>
                                 <li>
                                     <div className="notification">
-                                        <IoIosNotificationsOutline />
+                                        <RiNotification2Line />
+                                        <span className="countNtf">1</span>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="message">
-                                        <FiMessageSquare />
+                                        <BiMessageSquare />
+                                        <span className="countNtf">1</span>
                                     </div>
                                 </li>
                                 <li>

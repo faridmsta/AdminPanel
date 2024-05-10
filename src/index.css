@@ -10,13 +10,25 @@
   font-family: "Nunito", sans-serif;
 }
 
-#root{
+/* #root{
     --font: "Nunito", sans-serif;
     --primary: #000;
     --secondary: #1C1C1E;
     --text: #FFF;
     --opcolor: #2E5EAA;
     --opcolor2: #177E89;
+    --textz: #000;
+
+} */
+
+#root{
+    --font: "Nunito", sans-serif;
+    --primary: #fff;
+    --secondary: #1C1C1E;
+    --text: #000;
+    --opcolor: #2E5EAA;
+    --opcolor2: #177E89;
+    --textz: #fff;
 
 }
 
