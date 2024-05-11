@@ -5,6 +5,8 @@ import { TbWorld } from "react-icons/tb";
 import { RiNotification2Line } from "react-icons/ri";
 import { BiMessageSquare } from "react-icons/bi";
 import { IoIosMore } from "react-icons/io";
+import { CgProfile } from "react-icons/cg";
+
 function Navbar() {
     return (
         <div>
@@ -28,15 +30,15 @@ function Navbar() {
                         <nav>
                             <ul>
                                 <li className='item thememode' >
-                                    <label class="switch">
-                                        <input  type="checkbox" />
-                                        <span class="slider"></span>
+                                    <label className="switch">
+                                        <input type="checkbox" />
+                                        <span className="slider"></span>
                                     </label>
                                 </li>
                                 <li>
                                     <div className="notification">
                                         <RiNotification2Line />
-                                        <span className="countNtf">1</span>
+                                        <span className="countNtf">2</span>
                                     </div>
                                 </li>
                                 <li>
@@ -54,7 +56,7 @@ function Navbar() {
                         </nav>
                         <div className="profile">
                             <div className="photo">
-
+                                <CgProfile />
                             </div>
                         </div>
                     </div>

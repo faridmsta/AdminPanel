@@ -1,0 +1,37 @@
+.widget{
+    width: 22%;
+    font-family: var(--font);
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 14px;
+    & .top{
+
+        font-size: 16px;
+        display: flex;
+        justify-content: space-between;
+        & .percentage{
+            display: flex;
+            align-items: center;
+            color: green;
+            & .upAndDown{
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+    & .center{
+        font-size: 32px;
+    }
+    & .bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        & a{
+            color: gray;
+            text-decoration: none;
+        }
+        & .icon{
+            
+        }
+    }
+}
