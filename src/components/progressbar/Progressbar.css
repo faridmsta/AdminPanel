@@ -1,0 +1,40 @@
+.progresBar {
+    flex: 2;
+    box-sizing: border-box;
+    padding: 20px;
+    font-family: var(--font);
+    box-shadow: 0px 0px 0px 5px gray;
+    border-radius: 2rem;
+
+    & .title {
+        color: var(--text);
+        font-size: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &>span {
+            font-size: 24px;
+        }
+    }
+
+    & .onlyBar {
+
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 20px;
+
+        & .bar {
+            width: 200px;
+            height: 200px;
+
+        }
+
+    }
+
+    & .more {
+        text-align: center;
+        color: var();
+    }
+}

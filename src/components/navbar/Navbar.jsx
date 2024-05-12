@@ -7,7 +7,12 @@ import { BiMessageSquare } from "react-icons/bi";
 import { IoIosMore } from "react-icons/io";
 import { CgProfile } from "react-icons/cg";
 
-function Navbar() {
+function Navbar({ isDarkMode, toggleDarkMode }) {
+
+    const handleToggle = () => {
+
+        toggleDarkMode();
+    };
     return (
         <div>
             <div className="navbar">
@@ -31,7 +36,7 @@ function Navbar() {
                             <ul>
                                 <li className='item thememode' >
                                     <label className="switch">
-                                        <input type="checkbox" />
+                                        <input type="checkbox" checked={isDarkMode} onChange={handleToggle} />
                                         <span className="slider"></span>
                                     </label>
                                 </li>

@@ -10,18 +10,18 @@
   font-family: "Nunito", sans-serif;
 }
 
-/* #root{
+.darkmode{
     --font: "Nunito", sans-serif;
-    --primary: #000;
+    --primary: #121212;
     --secondary: #1C1C1E;
     --text: #FFF;
     --opcolor: #2E5EAA;
     --opcolor2: #177E89;
-    --textz: #000;
+    --textz: #fff;
 
-} */
+}
 
-#root{
+.lightmode{
     --font: "Nunito", sans-serif;
     --primary: #fff;
     --secondary: #1C1C1E;

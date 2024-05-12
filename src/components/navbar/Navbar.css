@@ -6,7 +6,8 @@
     align-items: center;
     justify-content: space-between;
     color: var(--text);
-    border-bottom: 2px solid var(--opcolor) ;
+    border-bottom: 2px dashed var(--opcolor) ;
+    background: var(--primary);
     & .navbarWrap{
         width: 100%;
         display: flex;
@@ -19,9 +20,10 @@
             align-items: center;
             & input{
                 /* padding: 5px 10px ; */
+                color: var(--text);
                 border: none;
                 outline: none;
-
+                background: transparent;
             }
             & svg{
                 font-size: 24px;
@@ -39,10 +41,13 @@
                     font-size: 24px;
                 }
                 & select{
+                    background: transparent;
+                    color: var(--text);
                     padding: 5px  ;
                     border: none;
                     outline: none;
                     & option{
+                        background: var(--primary);
                         padding: 5px 2px;
                     }
                 }

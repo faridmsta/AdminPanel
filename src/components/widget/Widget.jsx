@@ -94,7 +94,7 @@ function Widget({type}) {
         </div>
         <div className="center">
           <span>
-            {data.count} {(data.ismoney)&& "$"}
+            {data.count} <span className='dollarİcon'>{(data.ismoney)&& "$"}</span> 
           </span>
         </div>
         <div className="bottom">

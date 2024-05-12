@@ -1,0 +1,6 @@
+& .stats {
+    & .areaChart {
+        flex: 7;
+        height: 340px;
+    }
+}

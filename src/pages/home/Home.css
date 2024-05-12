@@ -1,13 +1,27 @@
 .home {
     display: flex;
+    background: var(--primary);
 
     & .content {
         flex: 8;
-        & .homeContent{
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            padding: 20px;
+
+        & .mainContent {
+            padding: 40px;
+
+            & .widgets {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                row-gap: 20px;
+                /* padding: 20px; */
+            }
+
+            & .stats {
+                margin: 40px 0 0;
+                display: flex;
+                gap: 20px;
+
+            }
         }
     }
 }
