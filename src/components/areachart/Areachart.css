@@ -1,5 +1,6 @@
 & .stats {
     & .areaChart {
+        font-family: var(--font);
         flex: 7;
         height: 340px;
     }
