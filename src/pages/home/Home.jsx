@@ -6,6 +6,10 @@ import Navbar from './../../components/navbar/Navbar'
 import Widget from '../../components/widget/Widget'
 import Progressbar from '../../components/progressbar/Progressbar';
 import Areachart from '../../components/areachart/Areachart'
+import Usertable from '../../components/table/Usertable'
+
+
+
 function Home({ isDarkMode, toggleDarkMode }) {
   return (
 
@@ -23,11 +27,14 @@ function Home({ isDarkMode, toggleDarkMode }) {
           </div>
           <div className="stats">
             <div className="progBar">
-              <Progressbar/>
+              <Progressbar />
             </div>
             <div className="areaChart">
-              <Areachart/>
+              <Areachart />
             </div>
+          </div>
+          <div className="TblWrapper">
+            <Usertable/>
           </div>
         </div>
       </div>

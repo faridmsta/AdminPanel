@@ -1,0 +1,37 @@
+.tableWrapper{
+    margin-top: 50px;
+    padding: 50px;
+    box-shadow: 0px 0px 0px 5px gray;
+    border-radius: 2rem;
+    font-family: var(--font);
+    & .title{
+        margin-bottom: 15px;
+        font-size: 32px;
+        color: var(--text);
+    }
+    & .tableItself{
+        background-color: var(--primary);
+        
+        
+        & .MuiTableCell-root{
+            color: var(--text);
+
+        }
+
+        & .avtiveRow{
+            & >span{
+                padding: 5px;
+                border-radius: 5px;
+            }
+            & .Active{    
+                color: green;
+                background-color: rgba(0, 128, 0, 0.2);
+            }
+            & .Deactive{
+                color: red;
+                background-color: rgba(255, 0, 0, 0.2);
+            }
+        }
+
+    }
+}
