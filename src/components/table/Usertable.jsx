@@ -22,15 +22,6 @@ function Usertable() {
 
     const rows = [
         {
-            id: 187265,
-            name: "Rahul",
-            email: "rahul@hotmail.com",
-            password: "12345678r",
-            phone: "1234567890",
-            address: "Russia",
-            isActive: "Deactive"
-        },
-        {
             id: 958684,
             name: "Rashad",
             email: "rashad@gmail.com",
@@ -38,15 +29,54 @@ function Usertable() {
             phone: "1234567890",
             address: "Azerbaijan",
             isActive: "Active"
+        },
+        {
+            id: 187265,
+            name: "Rahul",
+            email: "rahul@hotmail.com",
+            password: "12345678r",
+            phone: "1234567890",
+            address: "Russia",
+            isActive: "Deactive"
 
         },
         {
             id: 379249,
             name: "Francesko",
-            email: "Francesko@gmail.com",
+            email: "francesko@gmail.com",
             password: "francesko82",
             phone: "1234567890",
             address: "Brasil",
+            isActive: "Active"
+
+        },
+        {
+            id: 714582,
+            name: "Ahmat",
+            email: "ahhmad1972@gmail.com",
+            password: "ahm@t10102005",
+            phone: "1234567890",
+            address: "Azerbaijan",
+            isActive: "Active"
+
+        },
+        {
+            id: 824248,
+            name: "Daniel",
+            email: "daniel@gmail.com",
+            password: "daniford9910",
+            phone: "1234567890",
+            address: "England",
+            isActive: "Deactive"
+
+        },
+        {
+            id: 581227,
+            name: "Ravan",
+            email: "Rmaqamadeov@gmail.com",
+            password: "r@Van2005",
+            phone: "1234567890",
+            address: "Azerbaijan",
             isActive: "Active"
 
         }
