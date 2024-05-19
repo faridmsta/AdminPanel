@@ -1,0 +1,68 @@
+.list {
+    display: flex;
+    background: var(--primary);
+    min-height: 100vh;
+
+    & .content {
+        flex: 8;
+
+        & .mainContent {
+            padding: 40px;
+            & .css-n3fyjk-MuiDataGrid-root{
+                background: transparent;
+            }
+            & .MuiDataGrid-root {
+                color: var(--text);
+                
+                & .actionCell{
+                    
+                    gap: 20px;
+                    & span{
+                        padding: 5px;
+                        border-radius: 5px;
+                    }
+                    & .viewButton{
+                        color: darkblue;
+                        border: 1px solid rgb(0,0,139,0.05);
+                    }
+                    & .delButton{
+                        margin-left: 20px;
+                        color: crimson;
+                        border: 1px solid rgb(255,0,0,0.05);
+                    }
+                }
+                & .statusCell{
+                    & span{
+                        padding: 5px;
+                        border-radius: 5px;
+                    }
+                    & .Active{
+                        color: green;
+                        background: rgb(0,128,0,0.05);
+                    }
+                    & .Deactive{
+                        color: crimson;
+                        background: rgb(255,0,0,0.05);
+                    }
+                    & .Pending{
+                        color: goldenrod;
+                        background: rgb(255,217,0,0.05);
+                    }
+                }
+
+                & .fullNameCell {
+                    display: flex;
+                    & img {
+                        border: 1px solid gray;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                        margin-right: 10px;
+                    }
+                }
+
+            }
+        }
+    }
+}

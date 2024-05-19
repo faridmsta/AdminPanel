@@ -10,14 +10,16 @@ import { IoIosStats } from "react-icons/io";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { IoMdSettings } from "react-icons/io";
 import { IoIosLogIn } from "react-icons/io";
+import { Link } from 'react-router-dom';
+
 function Sidebar() {
   return (
     <>
       <div className="sideBar">
         <div className="logo">
-          <a href="#">
+          <Link to="#">
             Admin<span>Panel</span>
-          </a>
+          </Link>
         </div>
         <div className="classification">
           <ul>
@@ -26,7 +28,7 @@ function Sidebar() {
                 <h3>Main</h3> <IoIosArrowDown />
               </div>
               <div className="topicBody">
-                  <a href=""><MdDashboard/> Dashboard</a>
+                  <Link to="/"><MdDashboard/> Dashboard</Link>
               </div>
             </li>
             <li className="topics">
@@ -34,10 +36,10 @@ function Sidebar() {
                 <h3>Lists</h3> <IoIosArrowDown />
               </div>
               <div className="topicBody">
-                  <a href=""><CgProfile/> Users</a>
-                  <a href=""><AiOutlineProduct /> Producuts</a>
-                  <a href=""><PiCardsLight/> Order</a>
-                  <a href=""><TbTruckDelivery/> Delivery</a>
+                  <Link to="/users"><CgProfile/> Users</Link>
+                  <Link to=""><AiOutlineProduct /> Producuts</Link>
+                  <Link to=""><PiCardsLight/> Order</Link>
+                  <Link to=""><TbTruckDelivery/> Delivery</Link>
               </div>
             </li>
             <li className="topics">
@@ -45,8 +47,8 @@ function Sidebar() {
                 <h3>Useful</h3> <IoIosArrowDown />
               </div>
               <div className="topicBody">
-                  <a href=""><IoIosStats/> Stats</a>
-                  <a href=""><IoMdNotificationsOutline/>Notifications</a>
+                  <Link to=""><IoIosStats/> Stats</Link>
+                  <Link to=""><IoMdNotificationsOutline/>Notifications</Link>
               </div>
             </li>
             <li className="topics">
@@ -54,9 +56,9 @@ function Sidebar() {
                 <h3>Service</h3> <IoIosArrowDown />
               </div>
               <div className="topicBody">
-                  <a href=""><IoMdSettings /> System health</a>
-                  <a href=""><IoMdSettings /> Logs</a>
-                  <a href=""><IoMdSettings /> Settings</a>
+                  <Link to=""><IoMdSettings /> System health</Link>
+                  <Link to=""><IoMdSettings /> Logs</Link>
+                  <Link to=""><IoMdSettings /> Settings</Link>
               </div>
             </li>
             <li className="topics">
@@ -64,8 +66,8 @@ function Sidebar() {
                 <h3>User</h3> <IoIosArrowDown />
               </div>
               <div className="topicBody">
-                  <a href=""><IoIosLogIn/> Profile</a>
-                  <a href=""><IoIosLogIn/> Log out</a>
+                  <Link to=""><IoIosLogIn/> Profile</Link>
+                  <Link to=""><IoIosLogIn/> Log out</Link>
               </div>
             </li>
           </ul>

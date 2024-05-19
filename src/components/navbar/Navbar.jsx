@@ -61,7 +61,7 @@ function Navbar({ isDarkMode, toggleDarkMode }) {
                         </nav>
                         <div className="profile">
                             <div className="photo">
-                                <CgProfile />
+                                <img src="https://media.licdn.com/dms/image/D4E03AQFyyLACyEyuDQ/profile-displayphoto-shrink_200_200/0/1709843951686?e=2147483647&v=beta&t=BDFYF-goZB9rpbFpltjgOJ4A1SZIgFalmN9BH1jYnZE" alt="" />
                             </div>
                         </div>
                     </div>

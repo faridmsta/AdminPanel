@@ -20,7 +20,7 @@ function App() {
         <Route index element={<Home isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />} />
         <Route path="login" element={<Login/>}/>
         <Route path="users">
-          <Route index element={<List/>} />
+          <Route index element={<List isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />} />
           <Route path=':userId' element={<Single/>}/>
           <Route path='new' element={<New/>}/>
         </Route> 
